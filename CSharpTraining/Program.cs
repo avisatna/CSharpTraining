@@ -35,6 +35,24 @@ Console.WriteLine("Hello, World!");
 
 
 // Calling MyString objects
-MyString myStringObject = new MyString();
+//MyString myStringObject = new MyString();
+
+
+//Class & Methods
+//ClassAndMethod classAndMethodObject = new ClassAndMethod();
+
+//string fullName = classAndMethodObject.GetFullName("Avinash", "Singh");
+
+//int sum = classAndMethodObject.GetSumofNumbers(10, 50);
+
+//bool is5CharWord = classAndMethodObject.IsFiveCharWord("Apple");
+
+//bool is5CharWord2 = classAndMethodObject.IsFiveCharWord("Orange");
+
+
+LoopClass loopClassObject = new LoopClass();
+loopClassObject.DoWhileLoopMethod2();
 
 Console.ReadLine();
+
+

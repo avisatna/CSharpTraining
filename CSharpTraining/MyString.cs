@@ -12,6 +12,7 @@ namespace CSharpTraining
 
         public MyString()
         {
+            Console.WriteLine("String 6th Char: " + strTxt[5]);
             Console.WriteLine("String Length: " + strTxt.Length);
             Console.WriteLine("Lower case string: " + strTxt.ToLower());
             Console.WriteLine("Upper case string: " + strTxt.ToUpper());
@@ -37,5 +38,7 @@ namespace CSharpTraining
                 Console.WriteLine(fruitsArray[i]);
             }
         }
+    
+        
     }
 }
