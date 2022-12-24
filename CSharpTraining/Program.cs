@@ -50,8 +50,17 @@ Console.WriteLine("Hello, World!");
 //bool is5CharWord2 = classAndMethodObject.IsFiveCharWord("Orange");
 
 
-LoopClass loopClassObject = new LoopClass();
-loopClassObject.DoWhileLoopMethod2();
+//LoopClass loopClassObject = new LoopClass();
+//loopClassObject.DoWhileLoopMethod2();
+
+//FileOperation fileOperationObject = new FileOperation();
+//fileOperationObject.CreateNewFile();
+//fileOperationObject.UpdateFile();
+//fileOperationObject.DeleteFile();
+
+MyExceptions myExceptionsObject = new MyExceptions();
+myExceptionsObject.CreateStringArray();
+
 
 Console.ReadLine();
 
